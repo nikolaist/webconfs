@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Authorisation API Client</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Authorisation API Client</h1>
+  <div class="form">
+    <label for="clientId">Client ID</label>
+    <input id="clientId" value="client-001" />
+    <label for="clientSecret">Client Secret</label>
+    <input id="clientSecret" value="auth-secret-for-client-001" />
+    <label for="scopes">Scopes (comma separated)</label>
+    <input id="scopes" value="ORGANISATION,PATIENT" />
+    <button id="send">Send Request</button>
+  </div>
+  <div class="response">
+    <h2>Response</h2>
+    <pre id="output"></pre>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

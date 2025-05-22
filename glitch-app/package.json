@@ -1,0 +1,13 @@
+{
+  "name": "glitch-auth-app",
+  "version": "1.0.0",
+  "description": "Simple web app to call authorisation API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
